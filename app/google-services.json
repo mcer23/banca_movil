@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "250919204782",
+    "project_id": "dami-466b6",
+    "storage_bucket": "dami-466b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250919204782:android:61f5bded1e9fc193a4ba3f",
+        "android_client_info": {
+          "package_name": "com.example.banca_movil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250919204782-k3v43p5ati56n6o7c0bnrlvhahm7l158.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvU3OyXy1Fhv4ioSY_M4e5ic-M56KIYhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250919204782-k3v43p5ati56n6o7c0bnrlvhahm7l158.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

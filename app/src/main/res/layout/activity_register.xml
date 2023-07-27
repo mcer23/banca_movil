@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro"
+            android:textColor="@color/blue"
+            android:textSize="60sp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingresa la información solicitada"
+            android:textColor="@color/bc_gris"
+            android:textSize="20sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="25dp"
+            android:hint="Email"
+            android:inputType="text"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="La contraseña debe de contener lo siguiente:"
+            android:layout_marginLeft="25dp"
+            android:textSize="10sp"
+            android:textColor="@color/bc_gris"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Una letra mayúscula."
+            android:layout_marginLeft="25dp"
+            android:textSize="10sp"
+            android:textColor="@color/bc_gris"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Una letra minúscula."
+            android:layout_marginLeft="25dp"
+            android:textSize="10sp"
+            android:textColor="@color/bc_gris"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Un carácter especial."
+            android:layout_marginLeft="25dp"
+            android:textSize="10sp"
+            android:textColor="@color/bc_gris"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Un número."
+            android:layout_marginLeft="25dp"
+            android:textSize="10sp"
+            android:textColor="@color/bc_gris"/>
+
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10sp"
+            android:backgroundTint="@color/blue"
+            android:text="Registrarse" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
